@@ -3,13 +3,13 @@
     "description": "短视频去水印的拓展包，集成各大短视频的去水印功能,最新优化更新",
     "type": "library",
     "keywords": [
-        "Xiaolie",
+        "xiaolie",
         "water-tools"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Xiaolie",
+            "name": "xiaolie",
             "email": "76101700@qq.com"
         }
     ],
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xiaolie\\WaterTools\\": "src"
+            "xiaolie\\WaterTools\\": "src"
         },
         "files": [
             "config/url-validator.php"
@@ -35,7 +35,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Xiaolie\\Tests\\": "tests"
+            "xiaolie\\Tests\\": "tests"
         }
     }
 }

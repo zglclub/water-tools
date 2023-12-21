@@ -1,26 +1,22 @@
 ## 短视频去水印
-集成了：抖音、火山、头条、快手、梨视频、美拍、陌陌、皮皮搞笑、皮皮虾、全民搞笑、刷宝、微视、小咖秀、最右、B站、微博、秒拍、淘宝等等。其他如果需要对接的可以issues
-===============s
+集成了：抖音、火山、头条、快手、梨视频、美拍、陌陌、皮皮搞笑、皮皮虾、全民搞笑、刷宝、微视、小咖秀、最右、B站、微博、秒拍、淘宝等等。
 
 ## 安装
 
 安装方法一：（需要下载composer.phar到根目录，设置PHP为全局变量）
 ~~~
-php composerphar require Xiaolie/video-tools
+php composerphar require xiaolie/video-tools
 ~~~
 安装方法二：
 ~~~
-composer require Xiaolie/video-tools
+composer require xiaolie/video-tools
 ~~~
 
 如果需要更新扩展包使用
 ~~~
-composer update Xiaolie/video-tools
+composer update xiaolie/video-tools
 ~~~
- ********
-### 日志与发布
-[原生PHP演示案例，下载后拉进环境](https://github.com/Xiaolie0098/origin-php-watermark-api)
- ********
+
 > 运行环境要求PHP70+
  
  VideoManager使用文档：(可以参考tests/testphp)
@@ -86,7 +82,7 @@ composer update Xiaolie/video-tools
    --
    ````
        需要进行try-catch
-       namespace \Xiaolie\WaterTools\Exception;
+       namespace \xiaolie\WaterTools\Exception;
        try {
            $res = VideoManager::KuaiShou()->start("https://v.kuaishou.com/xxxx");
        } catch (ErrorVideoException $e) {
